@@ -17,6 +17,10 @@ h2{
     border-bottom: 2px solid #3D3D3D;
 }
 
+figure {
+    margin: 30px;
+}
+
 figure img{
     display: block;
     margin:auto;
@@ -24,8 +28,9 @@ figure img{
     color : lightgrey;
     align-items: center;
     padding: 15px;
-    margin: 30px;
-    max-width: 880px;
+    margin: 0;
+    max-width: 100%;
+    height: auto;
 }
 
 figcaption{
@@ -33,4 +38,16 @@ figcaption{
     margin-top: 10px;
 
 }
-    
+
+.matriz-musicdot {
+    width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.familia-tupfeln {
+    width: 275px;
+    float: right;
+    margin: 0 0 10px 10px;
+}
+
